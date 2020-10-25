@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>User information</legend>
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="Username" id="username">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password" id="username">
+    </fieldset>
+    <br>
+    </form>
+    <fieldset>
+        <legend>Personal information</legend>
+        <label for="firstname">First name:</label>
+        <br>
+        <input type="text" name="firstname" id="firstname">
+        <br>
+        <label for="lastname">Last name:</label>
+        <br>
+        <input type="text" name="lastname" id="lastname">
+        <br>
+        <input type="radio" name="sex" value="male" id="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="sex" value="female" id="female">
+        <label for="female">Female</label>
+        <br>
+        <label for="favfood">Favorite food </label>
+        <select name="favfood" id="favfood">
+            <option value="chocolate">Chocolate</option>
+            <option value="fruits">Fruits</option>
+            <option value="vegies">Vegetables</option>
+        </select>
+    </fieldset>
+    <br>
+    <button>Register</button>
+    <button>Reset</button>
+</body>
+</html>
